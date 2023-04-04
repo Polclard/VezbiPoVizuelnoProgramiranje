@@ -44,6 +44,7 @@
             nameForma2.Name = "nameForma2";
             nameForma2.Size = new Size(450, 23);
             nameForma2.TabIndex = 0;
+            nameForma2.Validated += nameForma2_Validated;
             // 
             // cateogryForma2
             // 
@@ -51,6 +52,7 @@
             cateogryForma2.Name = "cateogryForma2";
             cateogryForma2.Size = new Size(450, 23);
             cateogryForma2.TabIndex = 1;
+            cateogryForma2.Validated += cateogryForma2_Validated;
             // 
             // label1
             // 
@@ -85,6 +87,7 @@
             priceForma2.Name = "priceForma2";
             priceForma2.Size = new Size(100, 23);
             priceForma2.TabIndex = 5;
+            priceForma2.Validated += priceForma2_Validated;
             // 
             // dodadiForma2
             // 
@@ -110,7 +113,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(474, 237);
+            ClientSize = new Size(498, 237);
             Controls.Add(otkaziForma2);
             Controls.Add(dodadiForma2);
             Controls.Add(priceForma2);

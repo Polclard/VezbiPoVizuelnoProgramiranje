@@ -47,7 +47,9 @@
             label5 = new Label();
             label6 = new Label();
             total = new TextBox();
+            numericUpDown1 = new NumericUpDown();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // listPr
@@ -68,6 +70,7 @@
             listCa.Name = "listCa";
             listCa.Size = new Size(181, 364);
             listCa.TabIndex = 1;
+            listCa.SelectedIndexChanged += listCa_SelectedIndexChanged;
             // 
             // groupBox1
             // 
@@ -140,7 +143,7 @@
             // 
             dodadiVoKosnicka.Location = new Point(198, 248);
             dodadiVoKosnicka.Name = "dodadiVoKosnicka";
-            dodadiVoKosnicka.Size = new Size(225, 23);
+            dodadiVoKosnicka.Size = new Size(139, 23);
             dodadiVoKosnicka.TabIndex = 3;
             dodadiVoKosnicka.Text = "Додади во кошничка >>";
             dodadiVoKosnicka.UseVisualStyleBackColor = true;
@@ -232,11 +235,22 @@
             total.TabIndex = 12;
             total.TextChanged += total_TextChanged;
             // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(343, 250);
+            numericUpDown1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(80, 23);
+            numericUpDown1.TabIndex = 13;
+            numericUpDown1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(622, 525);
+            Controls.Add(numericUpDown1);
             Controls.Add(total);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -255,6 +269,7 @@
             KeyDown += Form1_KeyDown;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -280,5 +295,6 @@
         private Label label5;
         private Label label6;
         private TextBox total;
+        private NumericUpDown numericUpDown1;
     }
 }
