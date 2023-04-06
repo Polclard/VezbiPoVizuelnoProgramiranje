@@ -10,6 +10,7 @@ namespace CashAccount
     {
         public Product Product { get; set; }
         public int Quantity { get; set; }
+        public int MyProperty { get; set; }
 
         public Item(Product product, int quantity)
         {
