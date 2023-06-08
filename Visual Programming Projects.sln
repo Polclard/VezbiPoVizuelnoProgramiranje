@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovingShapes", "MovingShape
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovingBalls", "MovingBalls\MovingBalls.csproj", "{F72FA009-F8A0-4792-A3FC-99C7BBFE2049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplikacijaIgraSoTopcinja", "AplikacijaIgraSoTopcinja\AplikacijaIgraSoTopcinja.csproj", "{601015CF-25D9-40D0-B8B1-4162E4236915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplikacijaIgraSoTopcinja", "AplikacijaIgraSoTopcinja\AplikacijaIgraSoTopcinja.csproj", "{601015CF-25D9-40D0-B8B1-4162E4236915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VtoraAplikacijaIgraSoTopcinja", "VtoraAplikacijaIgraSoTopcinja\VtoraAplikacijaIgraSoTopcinja.csproj", "{0AE94B96-F35F-4CCA-A7A4-43F29BBAB52D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{601015CF-25D9-40D0-B8B1-4162E4236915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{601015CF-25D9-40D0-B8B1-4162E4236915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{601015CF-25D9-40D0-B8B1-4162E4236915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE94B96-F35F-4CCA-A7A4-43F29BBAB52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE94B96-F35F-4CCA-A7A4-43F29BBAB52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE94B96-F35F-4CCA-A7A4-43F29BBAB52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE94B96-F35F-4CCA-A7A4-43F29BBAB52D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
